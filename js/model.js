@@ -7,7 +7,7 @@ const initialState = {
   mageMove: ``,
   monster: {
     maxHealth: 10,
-    name: 'Лютый',
+    name: 'Monster',
     moves: [
       {
         name: 'Claw Punch',
