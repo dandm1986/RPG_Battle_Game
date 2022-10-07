@@ -22,7 +22,7 @@ class GameView extends View {
   _generateMarkup() {
     return `
     <header>
-      <h1>Раунд ${this._data.round}</h1>
+      <h1>Round ${this._data.round}</h1>
     </header>
     <main>
       <section class="monster">
