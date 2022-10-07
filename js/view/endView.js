@@ -17,24 +17,24 @@ class EndView extends View {
         <div class="container">
           <img class="icon" src="./img/graveStone.png" alt="${this._data.monster.name}" />
         </div>
-        <h1>Все пали смертью храбрых!</h1>`
+        <h1>Noone survived!</h1>`
         : this._data.monster.maxHealth <= 0 && this._data.mage.maxHealth > 0
         ? `
           <div class="container">
             <img class="icon" src="./img/mage.png" alt="${this._data.monster.name}" />
           </div>
-          <h1>${this._data.mage.name} победил!<h1>`
+          <h1>${this._data.mage.name} wins!<h1>`
         : `
           <div class="container">
             <img class="icon" src="./img/monster.png" alt="${this._data.mage.name}" />
           </div>
-          <h1>${this._data.monster.name} победил!<h1>`;
+          <h1>${this._data.monster.name} wins!<h1>`;
     return `
     <header>
       ${content}
       <ul class="header-btns">
         <li>
-          <button class="btn">Ещё раз!</button> 
+          <button class="btn">Again!</button> 
         </li>
       <ul>
     </header>

@@ -17,13 +17,13 @@ class StartView extends View {
       <h1>RPG Battle</h1>
       <ul class="header-btns">
         <li>
-          <button class="btn" data-difficulty="easy">Легко</button>
+          <button class="btn" data-difficulty="easy">Easy</button>
         </li>
         <li>
-          <button class="btn" data-difficulty="medium">Средне</button>
+          <button class="btn" data-difficulty="medium">Medium</button>
         </li>
         <li>
-          <button class="btn" data-difficulty="hard">Сложно</button>
+          <button class="btn" data-difficulty="hard">Hard</button>
         </li>
       <ul>
     </header>

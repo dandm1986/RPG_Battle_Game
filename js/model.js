@@ -10,7 +10,7 @@ const initialState = {
     name: 'Лютый',
     moves: [
       {
-        name: 'Удар когтистой лапой',
+        name: 'Claw Punch',
         physicalDmg: 3,
         magicDmg: 0,
         physicArmorPercents: 20,
@@ -18,7 +18,7 @@ const initialState = {
         cooldown: 0,
       },
       {
-        name: 'Огненное дыхание',
+        name: 'Fire Breath',
         physicalDmg: 0,
         magicDmg: 4,
         physicArmorPercents: 0,
@@ -26,7 +26,7 @@ const initialState = {
         cooldown: 3,
       },
       {
-        name: 'Удар хвостом',
+        name: 'Tail bump',
         physicalDmg: 2,
         magicDmg: 0,
         physicArmorPercents: 50,
@@ -37,10 +37,10 @@ const initialState = {
   },
   mage: {
     maxHealth: 0,
-    name: 'Евстафий',
+    name: 'Battle Mage',
     moves: [
       {
-        name: 'Удар боевым кадилом',
+        name: 'Combat Cross Stroke',
         physicalDmg: 2,
         magicDmg: 0,
         physicArmorPercents: 0,
@@ -48,7 +48,7 @@ const initialState = {
         cooldown: 0,
       },
       {
-        name: 'Вертушка левой пяткой',
+        name: 'Heel Kick',
         physicalDmg: 4,
         magicDmg: 0,
         physicArmorPercents: 0,
@@ -56,7 +56,7 @@ const initialState = {
         cooldown: 4,
       },
       {
-        name: 'Каноничный фаербол',
+        name: 'Fireball',
         physicalDmg: 0,
         magicDmg: 5,
         physicArmorPercents: 0,
@@ -64,7 +64,7 @@ const initialState = {
         cooldown: 3,
       },
       {
-        name: 'Магический блок',
+        name: 'Magical Block',
         physicalDmg: 0,
         magicDmg: 0,
         physicArmorPercents: 100,

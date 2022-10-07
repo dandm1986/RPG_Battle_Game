@@ -65,7 +65,7 @@ class GameView extends View {
     return `
     <div class="header-stats">
       <h2 class="name">${this._data[hero][`name`]}</h2>
-      <h3 class="health">Здоровье: ${renderFloat(
+      <h3 class="health">Health: ${renderFloat(
         this._data[hero][`maxHealth`]
       )}</h3>
       <p class="move-name">${
@@ -73,7 +73,7 @@ class GameView extends View {
           ? this._data[`${hero}Move`][`name`]
           : hero === `monster`
           ? ``
-          : `Чем ответишь?`
+          : `What's your choice?`
       }</p>
     </div>
     `;
@@ -127,7 +127,7 @@ class GameView extends View {
           move === `mageMove`
             ? `
           <div class="container" id="make-move">
-            <button class="btn">Выбрать</button>
+            <button class="btn">Choose</button>
           </div>
         `
             : ``
